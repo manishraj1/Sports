@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="16119" systemVersion="19E287" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="Note" representedClassName="Note" syncable="YES" codeGenerationType="class">
+        <attribute name="creationDate" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
+        <attribute name="text" optional="YES" attributeType="String"/>
+        <relationship name="stadium" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="StadiumDetails" inverseName="note" inverseEntity="StadiumDetails"/>
+    </entity>
+    <entity name="Photo" representedClassName="Photo" syncable="YES" codeGenerationType="class">
+        <attribute name="imageData" optional="YES" attributeType="Binary" allowsExternalBinaryDataStorage="YES"/>
+        <relationship name="stadium" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="StadiumDetails" inverseName="photos" inverseEntity="StadiumDetails"/>
+    </entity>
+    <entity name="StadiumDetails" representedClassName="StadiumDetails" syncable="YES" codeGenerationType="class">
+        <attribute name="city" optional="YES" attributeType="String"/>
+        <attribute name="haveVisited" optional="YES" attributeType="Boolean" usesScalarValueType="YES"/>
+        <attribute name="latitude" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <attribute name="longitude" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <attribute name="name" optional="YES" attributeType="String"/>
+        <attribute name="state" optional="YES" attributeType="String"/>
+        <attribute name="teamName" optional="YES" attributeType="String"/>
+        <relationship name="note" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Note" inverseName="stadium" inverseEntity="Note"/>
+        <relationship name="photos" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Photo" inverseName="stadium" inverseEntity="Photo"/>
+    </entity>
+    <elements>
+        <element name="Note" positionX="-2471.0703125" positionY="-6632.78125" width="128" height="88"/>
+        <element name="Photo" positionX="-2902.91796875" positionY="-6605.859375" width="128" height="73"/>
+        <element name="StadiumDetails" positionX="-2688.3125" positionY="-6829.84765625" width="128" height="178"/>
+    </elements>
+</model>
