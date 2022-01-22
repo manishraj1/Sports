@@ -3,10 +3,11 @@
 Sports app helps a sport crazy fan to know all the updates about the live game. The app downloads and stores NFL team stadium info from SportsDataIO the app contains different functionality the user can remember there sweet moments when they a lot of fun in the stadium or a rival matches like Manchester United VS Paris
 hears the Brief description !
 
-![IMG_5892](https://user-images.githubusercontent.com/88855727/147246146-a34df89e-d852-470b-bf1d-08ff29ef1946.PNG)
-![IMG_5893](https://user-images.githubusercontent.com/88855727/147246157-1523b3e6-1ed5-4f13-a998-6bfa768bf20a.PNG)
-![IMG_5894](https://user-images.githubusercontent.com/88855727/147246161-5b0e0c07-d4cd-47fb-a710-21d6c7db395b.PNG)
-![IMG_5895](https://user-images.githubusercontent.com/88855727/147246166-0db71076-228e-45ff-aa25-45c55192f327.PNG)
+<a><img src="https://user-images.githubusercontent.com/88855727/147246146-a34df89e-d852-470b-bf1d-08ff29ef1946.PNG" width="230"></a>
+<a><img src="https://user-images.githubusercontent.com/88855727/147246157-1523b3e6-1ed5-4f13-a998-6bfa768bf20a.PNG" width="230"></a>
+<a><img src="https://user-images.githubusercontent.com/88855727/147246161-5b0e0c07-d4cd-47fb-a710-21d6c7db395b.PNG" width="230"></a>
+<a><img src="https://user-images.githubusercontent.com/88855727/147246166-0db71076-228e-45ff-aa25-45c55192f327.PNG" width="230"></a>
+
 
 # Implementation
 
